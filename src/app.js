@@ -60,7 +60,7 @@ app.get('/weather', (req, res) => {
             res.send({
                 location,
                 description,
-                forecast: description + ". The current temperature is " + temperature + " degrees celcius. It feels like " + apparentTemperature + " degrees celcius.",
+                forecast: description + ". The current temperature is " + temperature + " degrees celsius. It feels like " + apparentTemperature + " degrees celsius.",
                 address: req.query.address
             })
         })
